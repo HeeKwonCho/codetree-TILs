@@ -8,7 +8,7 @@ arr = inp.split()
 b_math = int(arr[0])
 b_english = int(arr[1])
 
-if a_math > a_english and a_english > b_english :
+if a_math > b_math and a_english > b_english :
     print(1)
 else :
     print(0)
